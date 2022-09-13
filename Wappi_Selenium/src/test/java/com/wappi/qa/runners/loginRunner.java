@@ -9,6 +9,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "src/test/resources/features/login.feature"
         , glue = "com.wappi.qa.stepdefinitions"
         , snippets = SnippetType.CAMELCASE)
-public class loginRunners {
+public class loginRunner {
 
 }
