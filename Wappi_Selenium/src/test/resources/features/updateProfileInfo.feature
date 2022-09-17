@@ -13,4 +13,4 @@ Feature: Update Profile
       When the user clicks the Profile view button
         |name  |lastName  |dateOfBirth|country |sex   |
         |Wilson|Villanueva|12/08/1996 |Colombia|female|
-      Then I should see the profile menu
+      Then the user should see the profile menu

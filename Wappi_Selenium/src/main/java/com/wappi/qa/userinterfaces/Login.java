@@ -4,7 +4,6 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class Login {
-
     public static  final Target USER_NAME = Target
             .the("Enter username")
             .located(By.id("username"));

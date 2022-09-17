@@ -16,8 +16,8 @@ public class updateUserProfileStepDefinitions {
         OnStage.theActorInTheSpotlight().attemptsTo(UpdateUserProfile.withData(data.get(0)));
     }
 
-    @Then("^I should see the profile menu$")
-    public void i_should_see_the_profile_menu() {
+    @Then("^the user should see the profile menu$")
+    public void the_user_should_see_the_profile_menu() {
 
     }
 }
